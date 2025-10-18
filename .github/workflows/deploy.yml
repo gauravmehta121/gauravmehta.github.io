@@ -23,7 +23,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          NEXT_PUBLIC_BASE_PATH: '/yourusername.github.io'  # Replace with your GitHub username
+          NEXT_PUBLIC_BASE_PATH: ''  # Empty for root domain
 
       - name: Export
         run: |

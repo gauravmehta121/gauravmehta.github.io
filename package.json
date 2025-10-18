@@ -9,7 +9,7 @@
     "lint": "eslint",
     "export": "next build && next export -o out"
   },
-  "homepage": "https://yourusername.github.io/your-repo-name",
+  "homepage": "https://gauravsharma.me",
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "framer-motion": "^12.23.24",

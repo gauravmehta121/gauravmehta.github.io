@@ -2,22 +2,37 @@ import { CodeBracketIcon, ArrowTopRightOnSquareIcon } from '@heroicons/react/24/
 
 const projects = [
   {
-    title: 'Project One',
-    description: 'A brief description of your project. What problem does it solve? What technologies did you use?',
-    tags: ['React', 'Node.js', 'MongoDB'],
+    title: 'Kloudspot - Video Analytics Platform',
+    description: 'Led the development of a real-time video processing pipeline using Nvidia DeepStream 6.2, improving system performance by 25% through algorithm optimization and implementing a robust object detection system with YOLOv4 Tiny.',
+    tags: ['Python', 'DeepStream', 'YOLOv4', 'Real-time Processing'],
     github: '#',
     demo: '#',
-    image: 'https://via.placeholder.com/600x400?text=Project+One'
+    image: 'https://via.placeholder.com/600x400?text=Kloudspot+Video+Analytics'
   },
   {
-    title: 'Project Two',
-    description: 'Another project description. Highlight the key features and your role in the project.',
-    tags: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+    title: 'E-Job Portal',
+    description: 'Developed a PHP-based web portal with MySQL for managing job applications, featuring application submission, tracking, and company management.',
+    tags: ['PHP', 'MySQL', 'Bootstrap'],
     github: '#',
     demo: '#',
-    image: 'https://via.placeholder.com/600x400?text=Project+Two'
+    image: 'https://via.placeholder.com/600x400?text=E-Job+Portal'
   },
-  // Add more projects as needed
+  {
+    title: 'Gemini Matching Engine',
+    description: 'Built a trading system with a Matching Engine and Order Book that handles buy/sell orders, sorts them by price, and executes orders through Price Buckets.',
+    tags: ['Java', 'System Design', 'Algorithms'],
+    github: '#',
+    demo: '#',
+    image: 'https://via.placeholder.com/600x400?text=Gemini+Matching+Engine'
+  },
+  {
+    title: 'Airbnb Stock Prediction',
+    description: 'Utilized Random Forest Regressor for stock price prediction, incorporating historical data, market sentiment, and macroeconomic indicators.',
+    tags: ['Python', 'Machine Learning', 'Pandas', 'Scikit-learn'],
+    github: '#',
+    demo: '#',
+    image: 'https://via.placeholder.com/600x400?text=Stock+Prediction'
+  }
 ];
 
 export default function Work() {
