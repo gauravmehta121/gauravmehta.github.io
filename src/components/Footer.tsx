@@ -28,7 +28,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Connect</h3>
             <div className="flex space-x-4">
               <a
-                href="https://github.com/gauravmehta"
+                href="https://github.com/gauravmehta121"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
@@ -39,7 +39,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://linkedin.com/in/gauravmehta"
+                href="https://www.linkedin.com/in/mehtagaurav123/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
@@ -79,7 +79,7 @@ export default function Footer() {
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a 
-              href="https://github.com/gauravmehta/personal-website" 
+              href="https://github.com/gauravmehta121/personal-website" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white text-sm transition-colors"
@@ -87,7 +87,7 @@ export default function Footer() {
               View Source
             </a>
             <a 
-              href="https://www.linkedin.com/in/gauravmehta/" 
+              href="https://www.linkedin.com/in/mehtagaurav123/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white text-sm transition-colors"

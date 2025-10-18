@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add your custom styles below */
+body {
+  @apply bg-white text-gray-900;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Dark mode styles */
+.dark body {
+  @apply bg-gray-900 text-gray-100;
+}

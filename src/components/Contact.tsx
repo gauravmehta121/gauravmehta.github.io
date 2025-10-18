@@ -56,7 +56,7 @@ export default function Contact() {
               <h4 className="text-sm font-medium text-gray-500 mb-4">Connect with me</h4>
               <div className="flex space-x-6">
                 <a
-                  href="https://github.com/gauravmehta"
+                  href="https://github.com/gauravmehta121"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 hover:text-indigo-600"
@@ -67,7 +67,7 @@ export default function Contact() {
                   </svg>
                 </a>
                 <a
-                  href="https://linkedin.com/in/gauravmehta"
+                  href="https://www.linkedin.com/in/mehtagaurav123/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 hover:text-indigo-600"
@@ -93,8 +93,26 @@ export default function Contact() {
           </div>
 
           <div>
-            <form name="contact" method="POST" data-netlify="true" className="space-y-6">
+            <form 
+              name="contact" 
+              method="POST" 
+              data-netlify="true"
+              action="/thank-you"
+              className="space-y-6"
+              onSubmit={(e) => {
+                const form = e.currentTarget;
+                fetch('/', {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                  body: new URLSearchParams(new FormData(form) as any).toString(),
+                })
+                .then(() => window.location.href = '/thank-you')
+                .catch((error) => alert('There was an error sending your message. Please try again later.'));
+                e.preventDefault();
+              }}
+            >
               <input type="hidden" name="form-name" value="contact" />
+              <input type="hidden" name="bot-field" />
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700">
                   Name
