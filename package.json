@@ -12,8 +12,7 @@
     "lint": "eslint",
     "export": "next build && next export -o out"
   },
-  "homepage": "https://gauravmehta121.github.io",
-  "dependencies": {
+"homepage": "https://gauravmehta121.github.io",  "dependencies": {
     "@heroicons/react": "^2.2.0",
     "framer-motion": "^12.23.24",
     "next": "15.5.6",
